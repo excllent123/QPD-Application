@@ -4,17 +4,17 @@ Quad‑Photodiode (Quad‑Pixel) sensors split each pixel into four sub‑apertu
 
 ---
 
-# Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model
+## Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model
 
 **CVPR 2025 Poster**
 
 This is the official project page for our paper **"Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model"**, accepted as a **Poster** at *CVPR 2025*. In this work, we address the task of defocus deblurring using Quad Photodiode (QPD) sensors, which are widely used in modern smartphone cameras. Our contributions include:
 
--  A large-scale **QP defocus deblurring (QPDD) dataset**, consisting of **4,935** defocus and all-in-focus image pairs, available in both RAW and sRGB formats.
--  A novel network **LMNet** for defocus deblurring, which fully utilizes information from the sub-aperture views of QP/DP images and enables effective capture of global and local dependencies.
--  Extensive experiments evaluate our QP-based deblurring approach and demonstrate its clear advantages over DP‑based methods.
+- 📷 A large-scale **QP defocus deblurring (QPDD) dataset**, consisting of **4,935** defocus and all-in-focus image pairs, available in both RAW and sRGB formats.
+- 🧠 A novel network **LMNet** for defocus deblurring, which fully utilizes information from the sub-aperture views of QP/DP images and enables effective capture of global and local dependencies.
+- 🔬 Extensive experiments evaluate our QP-based deblurring approach and demonstrate its clear advantages over DP‑based methods.
 
-## 📁 Dataset: QPDD
+### 📁 Dataset: QPDD
 
 We introduce **QPDD**, the first real-world defocus deblurring dataset dedicated to Quad‑Pixel sensors, containing:
 
@@ -33,7 +33,7 @@ We introduce **QPDD**, the first real-world defocus deblurring dataset dedicated
 
 More details about the dataset can be found in the paper.
 
-##  Method Overview
+### 🔬 Method Overview
 
 We propose **LMNet** (Local‑gate assisted Mamba Network), tailored for QPD defocus deblurring:
 
@@ -41,8 +41,7 @@ We propose **LMNet** (Local‑gate assisted Mamba Network), tailored for QPD def
 A dual‑branch encoder processes the four sub‑aperture views (UL, UR, DL, DR) of QPD, followed by a Simple Fusion Module (SFM) and a decoder built with LAMB blocks.  
 ![LMNet](https://github.com/excllent123/QPD-Application/blob/main/figs/LMNET.jpg)
 
-
-##  BibTeX
+### 📄 BibTeX
 
 If you find this dataset or method useful in your research, please cite our paper:
 
