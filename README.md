@@ -1,6 +1,7 @@
 # Quad-Pixel (QPD) Applications
 
 [Paper: CVPR 2025 Quad-Pixel deblurring](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Quad-Pixel_Image_Defocus_Deblurring_A_New_Benchmark_and_Model_CVPR_2025_paper.pdf)
+
 [Paper: CVPR 2025 QPD dispairty](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_All-directional_Disparity_Estimation_for_Real-world_QPD_Images_CVPR_2025_paper.pdf)  
 
 Quad-Photodiode (QPD) sensors split each pixel into four sub-aperture views (UL, UR, DL, DR) under a single microlens, providing multi-directional phase information. Compared to conventional Dual-Pixel (left/right), QPD unlocks **both horizontal and vertical disparity cues**, enabling richer geometry and sharper imaging. This page presents two CVPR 2025 projects that leverage QPD technology: **Image Defocus Deblurring** and **All-Directional Disparity Estimation**.
