@@ -1,11 +1,40 @@
+## Why Quad‑Pixel (QPD)?
+
+Quad‑Photodiode (Quad‑Pixel) sensors split each pixel into four sub‑aperture views (UL, UR, DL, DR) under a single microlens, providing multi‑directional phase information. Compared to conventional Dual‑Pixel (left/right), QPD unlocks **both horizontal and vertical disparity cues**, enabling richer geometry and sharper imaging. This page presents two CVPR 2025 projects that leverage QPD technology: **Image Defocus Deblurring** and **All‑Directional Disparity Estimation**.
+
+# Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model
+**CVPR 2025 Poster**
+This is the official project page for our paper **"Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model"**, accepted as poster at *CVPR 2025*. In this work, we address the task of defocus deblurring using Quad Photodiode (QPD) sensors, which are widely used in modern smartphone cameras. Our contributions include:
+
+- A QP defocus deblurring (QPDD) dataset, which consists of 4,935 defocus and all-in-focus image pairs, available in both RAW and sRGB formats.
+- A novel network LMNet for defocus deblurring, which fully utilizes information from the sub-aperture views of QP/DP images and enables effective capture of global and local dependencies.
+- Extensive experiments evaluate our QP-based deblurring approach and its advantages over the DP-based methods
+
+## 📁 Dataset: QPDD Dataset
+
+We introduce **QPDD Dataset**, the first real-world dataset containing:
+- 200 indoor scenes comprising 4,935 pairs of images.
+- 100 extra multi-depth test images.
+
+| Modality       | Count |
+|----------------|-------|
+| QPD Images     | 2,100 |
+| Disparity Maps | 2,100 |
+
+**Overview of QPD2K Generation Pipeline**
+![QPD2K](https://github.com/excllent123/QPD-disparity/blob/main/figs/QPD2K_pipeline.jpg)
+
+More details about the dataset can be found in the paper.
+
+
 # All-directional Disparity Estimation for Real-world QPD Images
 
 **CVPR 2025 Highlight Paper**
 
 This is the official project page for our paper **"All-directional Disparity Estimation for Real-world QPD Images"**, accepted as a **Highlight paper** at *CVPR 2025*. In this work, we address the task of disparity estimation using Quad Photodiode (QPD) sensors, which are widely used in modern smartphone cameras. Our contributions include:
 
-- 📷 The first large-scale real-world **QPD disparity dataset** (named **QPD2K**) with 2,100 high-resolution QPD image and ground-truth disparity pairs.
-- 🔧 We propose the **DPNet** for DP disparity estimation and the **QuadNet** for QPD disparity estimation, with three novel modules fully considering the characteristics of QPD sensors. Our experiments demonstrate that our networks achieve SOTA performance in DP and QPD disparity estimation.
+- The first large-scale real-world **QPD disparity dataset** (named **QPD2K**) with 2,100 high-resolution QPD image and ground-truth disparity pairs.
+- We propose the **DPNet** for DP disparity estimation and the **QuadNet** for QPD disparity estimation, with three novel modules fully considering the characteristics of QPD sensors. Our experiments demonstrate that our networks achieve SOTA performance in DP and QPD disparity estimation.
 
 ## 📁 Dataset: QPD2K
 
