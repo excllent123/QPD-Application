@@ -29,7 +29,7 @@ We introduce **QPDD**, the first real-world defocus deblurring dataset dedicated
 
 **Overview of QPDD Generation Pipeline**  
 *(Figure – see paper for details)*  
-![QPDD_pipeline](https://github.com/excllent123/QPD-Application/figs/QPDD_pipeline.png)
+![QPDD_pipeline](https://github.com/excllent123/QPD-Application/blob/main/figs/QPDD_pipeline.jpg)
 
 More details about the dataset can be found in the paper.
 
@@ -39,15 +39,8 @@ We propose **LMNet** (Local‑gate assisted Mamba Network), tailored for QPD def
 
 - **LMNet Architecture Overview**  
 A dual‑branch encoder processes the four sub‑aperture views (UL, UR, DL, DR) of QPD, followed by a Simple Fusion Module (SFM) and a decoder built with LAMB blocks.  
-![LMNet](https://github.com/excllent123/QPD-disparity/blob/main/figs/placeholder_LMNet.jpg)
+![LMNet](https://github.com/excllent123/QPD-Application/blob/main/figs/LMNET.jpg)
 
-- **LAMB Block (Local‑gate assisted Mamba Block)**  
-Integrates a local‑gate mechanism into the Mamba architecture to prevent local feature forgetting and reduce channel redundancy, capturing both global context and fine‑grained local details.  
-![LAMB](https://github.com/excllent123/QPD-disparity/blob/main/figs/placeholder_LAMB.jpg)
-
-## Code & Models
-
-The QPDD dataset, code and pre‑trained models will be made publicly available soon after finalization. Please check back here for updates.
 
 ##  BibTeX
 
@@ -99,9 +92,6 @@ The DPNet comprises two novel modules: an illumination-invariant module and a co
 QuadNet integrates two-directional information via an edge-aware fusion module for QPD data. A Census-based refinement further refines the fused disparity
 ![QuadNet](https://github.com/excllent123/QPD-disparity/blob/main/figs/Figure_network_Quad.jpg)
 
-##  Code & Models
-
-The QPD2K dataset, code and pre-trained models will be made publicly available soon after finalization. Please check back here for updates.
 
 ##  BibTeX
 
