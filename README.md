@@ -28,7 +28,6 @@ We introduce **QPDD**, the first real-world defocus deblurring dataset dedicated
 | Multi‑depth Test Images          | 100    |
 
 **Overview of QPDD Generation Pipeline**  
-*(Figure – see paper for details)*  
 ![QPDD_pipeline](https://github.com/excllent123/QPD-Application/blob/main/figs/QPDD_pipeline.jpg)
 
 More details about the dataset can be found in the paper.
