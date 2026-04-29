@@ -1,19 +1,14 @@
 # Quad-Pixel (QPD) Applications
 
-[Paper: CVPR 2025 Quad-Pixel deblurring](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Quad-Pixel_Image_Defocus_Deblurring_A_New_Benchmark_and_Model_CVPR_2025_paper.pdf)
-
-[QPDD Dataset, Password: 5fpj ](https://pan.baidu.com/s/1x122lE8xv3ZhIQcRLNGIJQ?pwd=5fpj)
-
-[Paper: CVPR 2025 QPD dispairty](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_All-directional_Disparity_Estimation_for_Real-world_QPD_Images_CVPR_2025_paper.pdf)  
-
-[QPD2K Dataset, Password: b2tz ](https://pan.baidu.com/s/1Eg01JtUFIpkOd5WfmxrxbQ?pwd=b2tz)  
-
-
 Quad-Photodiode (QPD) sensors split each pixel into four sub-aperture views (UL, UR, DL, DR) under a single microlens, providing multi-directional phase information. Compared to conventional Dual-Pixel (left/right), QPD unlocks **both horizontal and vertical disparity cues**, enabling richer geometry and sharper imaging. This page presents two CVPR 2025 projects that leverage QPD technology: **Image Defocus Deblurring** and **All-Directional Disparity Estimation**.
 
 ---
 
 ## Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model
+
+[Paper: CVPR 2025 Quad-Pixel deblurring](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Quad-Pixel_Image_Defocus_Deblurring_A_New_Benchmark_and_Model_CVPR_2025_paper.pdf)
+
+[QPDD Dataset, Password: 5fpj ](https://pan.baidu.com/s/1x122lE8xv3ZhIQcRLNGIJQ?pwd=5fpj)
 
 **CVPR 2025 Poster**
 
@@ -65,6 +60,10 @@ If you find this dataset or method useful in your research, please cite our pape
 ---
 
 ## All-directional Disparity Estimation for Real-world QPD Images
+
+[Paper: CVPR 2025 QPD dispairty](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_All-directional_Disparity_Estimation_for_Real-world_QPD_Images_CVPR_2025_paper.pdf)  
+
+[QPD2K Dataset, Password: b2tz ](https://pan.baidu.com/s/1Eg01JtUFIpkOd5WfmxrxbQ?pwd=b2tz)  
 
 **CVPR 2025 Highlight Paper**
 
