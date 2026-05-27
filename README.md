@@ -8,7 +8,9 @@ Quad-Photodiode (QPD) sensors split each pixel into four sub-aperture views (UL,
 
 [Paper: CVPR 2025 Quad-Pixel deblurring](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Quad-Pixel_Image_Defocus_Deblurring_A_New_Benchmark_and_Model_CVPR_2025_paper.pdf)
 
-[QPDD Dataset, Password: 5fpj ](https://pan.baidu.com/s/1x122lE8xv3ZhIQcRLNGIJQ?pwd=5fpj)
+**QPDD Dataset** is available from:
+- [Baidu Pan](https://pan.baidu.com/s/1x122lE8xv3ZhIQcRLNGIJQ?pwd=5fpj) (Password: `5fpj`)
+- [Hugging Face](https://huggingface.co/datasets/xdyangustc/QPD_Deblurring_Dataset1) (3 sub-datasets total)
 
 **CVPR 2025 Poster**
 
@@ -64,6 +66,10 @@ If you find this dataset or method useful in your research, please cite our pape
 [Paper: CVPR 2025 QPD dispairty](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_All-directional_Disparity_Estimation_for_Real-world_QPD_Images_CVPR_2025_paper.pdf)  
 
 [QPD2K Dataset, Password: b2tz ](https://pan.baidu.com/s/1Eg01JtUFIpkOd5WfmxrxbQ?pwd=b2tz)  
+
+**QPD2K Dataset** is available from:
+- [Baidu Pan](https://pan.baidu.com/s/1Eg01JtUFIpkOd5WfmxrxbQ?pwd=b2tz) (Password: `b2tz`)
+- [Hugging Face](https://huggingface.co/datasets/xdyangustc/QPD_Depth_Dataset)
 
 **CVPR 2025 Highlight Paper**
 
